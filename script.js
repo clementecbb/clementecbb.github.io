@@ -12,7 +12,7 @@ function boton() {
 var red = false;
 
         function cambiocolor() {
-            var button = document.getElementById("magicButton");
+            var button = document.getElementById("magico");
             
             if (red) {
                 button.classList.remove("btn-danger");
@@ -24,3 +24,9 @@ var red = false;
             
             red = !red;
         }
+
+
+    function cambiar() {
+        var newText = document.getElementById("text-cambaido").value;
+            document.getElementById("rempazar").innerHTML = newText;
+    }
