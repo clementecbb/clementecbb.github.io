@@ -9,12 +9,12 @@ console.log('Welcome');
 function boton() {
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 }
-var isRed = false;
+var red = false;
 
-        function toggleColor() {
+        function cambiocolor() {
             var button = document.getElementById("magicButton");
             
-            if (isRed) {
+            if (red) {
                 button.classList.remove("btn-danger");
                 button.classList.add("btn-primary");
             } else {
@@ -22,5 +22,5 @@ var isRed = false;
                 button.classList.add("btn-danger");
             }
             
-            isRed = !isRed;
+            red = !red;
         }
