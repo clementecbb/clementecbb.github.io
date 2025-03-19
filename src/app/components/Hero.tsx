@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 // Component for the decoding text effect
 const DecodingText = ({ text, delay = 0 }: { text: string; delay?: number }) => {
   const [displayText, setDisplayText] = useState("");
-  const [isDecoding, setIsDecoding] = useState(true);
+  // Remove the unused isDecoding state variable
   const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
 
   useEffect(() => {
@@ -44,7 +44,7 @@ const DecodingText = ({ text, delay = 0 }: { text: string; delay?: number }) => 
           
           startDecoding();
         } else {
-          setIsDecoding(false);
+          // Remove the setIsDecoding call since we removed the state
           setDisplayText(text);
         }
       }, interval);
