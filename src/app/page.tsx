@@ -9,12 +9,12 @@ import TechStack from "./components/TechStack";
 export default function Home() {
   return (
     <>
-      <NavBar />
-      <Hero />
-      <Experiences />
-      <TechStack />
-      <Projects />
-      <Footer />
+        <NavBar />
+        <Hero />
+        <Experiences />
+        <TechStack />
+        <Projects />
+        <Footer />
     </>
   );
 }
