@@ -76,7 +76,7 @@ export default function Hero() {
                         className="md:flex-1"
                     >
                         <div className="text-center mb-4 md:mb-4">
-                            <h1 className="text-3xl md:text-4xl font-bold">I&lsquo;m Clemente Barros</h1>
+                            <h1 className="text-3xl md:text-4xl font-bold">I&lsquo;m Clemente Barros mw gusta la tula</h1>
                         </div>
                         <div className="mx-auto md:ml-4 px-3 py-3 sm:px-4 sm:py-4 md:px-6 md:py-6 flex justify-center items-center">
                             <Image 
